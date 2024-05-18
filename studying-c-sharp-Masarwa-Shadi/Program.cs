@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using studying_c_sharp_Masarwa_Shadi.demo;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -10,6 +11,7 @@ namespace studying_c_sharp_Masarwa_Shadi
     {
         static void Main(string[] args)
         {
+            Level1.RunMe();
         }
     }
 }
