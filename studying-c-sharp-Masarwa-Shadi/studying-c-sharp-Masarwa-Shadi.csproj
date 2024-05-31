@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conflict\stam.cs" />
     <Compile Include="demo\Level1.cs" />
     <Compile Include="demo\Level2.cs" />
     <Compile Include="demo\Level3_1.cs" />
