@@ -12,6 +12,7 @@ namespace studying_c_sharp_Masarwa_Shadi
         public static void Main(string[] args)
         {
             Level1.RunMe();
+            Console.WriteLine("aaa");
         }
     }
 }
