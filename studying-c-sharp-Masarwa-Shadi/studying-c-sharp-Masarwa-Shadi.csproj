@@ -48,8 +48,11 @@
     <Compile Include="demo\Level2.cs" />
     <Compile Include="demo\Level3_1.cs" />
     <Compile Include="demo\Level3_2.cs" />
+    <Compile Include="DS\H1\Q1.cs" />
+    <Compile Include="DS\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="T1\Q1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
