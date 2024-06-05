@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Circle2\Circle2.cs" />
+    <Compile Include="Circle\Circle.cs" />
     <Compile Include="conflict\stam.cs" />
     <Compile Include="demo\Level1.cs" />
     <Compile Include="demo\Level2.cs" />
@@ -57,5 +59,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
