@@ -50,15 +50,20 @@
     <Compile Include="demo\Level2.cs" />
     <Compile Include="demo\Level3_1.cs" />
     <Compile Include="demo\Level3_2.cs" />
-    <Compile Include="DS\H1\Q1.cs" />
     <Compile Include="DS\Node.cs" />
+    <Compile Include="DS\T1\Q2A.cs" />
+    <Compile Include="DS\T1\Q3.cs" />
+    <Compile Include="DS\T1\Q4.cs" />
+    <Compile Include="DS\T1\Q5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="T1\Q1.cs" />
+    <Compile Include="DS\T1\Q1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DS\H1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

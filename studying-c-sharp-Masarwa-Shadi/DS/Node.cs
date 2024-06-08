@@ -50,7 +50,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
 
         public override string ToString()
         {
-            return value + "";
+            return value + " ";
         }
 
         // This method was added to use for printing list
@@ -58,8 +58,8 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
         public string ToPrint()
         {
             if (this.HasNext())
-                return value + "=>" + this.next.ToPrint();
-            return value + "=>null";
+                return value + ", " + this.next.ToPrint();
+            return value + ", null";
         }
     }
 }
