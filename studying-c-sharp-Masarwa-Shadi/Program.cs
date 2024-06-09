@@ -6,6 +6,7 @@ using studying_c_sharp_Masarwa_Shadi.Circle;
 using studying_c_sharp_Masarwa_Shadi.Circle2;
 //Data Structure
 using studying_c_sharp_Masarwa_Shadi.DS.T1;
+using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -20,7 +21,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q2A.RunMe();
             //Q3.RunTask();
             //Q4.RunTask();
-            Q5.RunTasks();
+            //a1.RunMe();            
+            a2.RunMe();
             
         }
     }
