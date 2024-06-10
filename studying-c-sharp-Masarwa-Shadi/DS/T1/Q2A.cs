@@ -19,7 +19,6 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
                 Console.WriteLine("Chains are matching");
             else
                 Console.WriteLine("Chains are not matching");
-
             Console.WriteLine();
             Console.WriteLine("Question 2");
             Console.WriteLine("----------");
@@ -32,7 +31,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
         private static Node<char> GenerateMatchingChain(Node<char> chain)
         {
             Node<char> newChain = null;
-            char ch=' ';
+            char ch = ' ';
             while (chain != null)
             {
                 Node<char> after = GetLast(newChain);
@@ -134,8 +133,6 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
             return len;
         }
 
-
-
         private static Node<char> GenerateChain(int num)
         {
             Node<char> newChain;
@@ -154,10 +151,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
                 newChain = new Node<char>('C', newChain);
             }
             return newChain;
-
-
-
         }
     }
-       
-    }
+
+}

@@ -19,8 +19,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q1.RunMe();
             //Q2A.RunMe();
             //Q3.RunTask();
-            //Q4.RunTask();
-            Q5.RunTasks();
+            Q4.RunTask();
+            //Q5.RunTasks();
             
         }
     }

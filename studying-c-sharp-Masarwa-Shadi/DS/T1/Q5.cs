@@ -76,15 +76,15 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
             return 0;
         }
 
-        public double getNum1()
+        public double GetNum1()
         {
             return num1;
         }
-        public double getNum2()
+        public double GetNum2()
         {
             return num2;
         }
-        public char getOp()
+        public char GetOp()
         {
             return op;
         }
