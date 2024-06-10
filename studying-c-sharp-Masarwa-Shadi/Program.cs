@@ -22,7 +22,9 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q3.RunTask();
             //Q4.RunTask();
             //a1.RunMe();            
-            a2.RunMe();
+            //a2.RunMe();
+            LinkedListExample.RunTasks();
+
             
         }
     }
