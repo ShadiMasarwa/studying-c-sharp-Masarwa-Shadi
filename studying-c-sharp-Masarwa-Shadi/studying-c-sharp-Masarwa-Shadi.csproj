@@ -50,6 +50,9 @@
     <Compile Include="demo\Level2.cs" />
     <Compile Include="demo\Level3_1.cs" />
     <Compile Include="demo\Level3_2.cs" />
+    <Compile Include="DS\ClassProj\a1.cs" />
+    <Compile Include="DS\ClassProj\a2.cs" />
+    <Compile Include="DS\ClassProj\a3.cs" />
     <Compile Include="DS\Node.cs" />
     <Compile Include="DS\T1\Q2A.cs" />
     <Compile Include="DS\T1\Q3.cs" />
