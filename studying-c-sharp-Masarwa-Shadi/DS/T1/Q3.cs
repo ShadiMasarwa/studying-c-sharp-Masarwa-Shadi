@@ -15,37 +15,37 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
             int numToDelete = 2;
             Console.WriteLine("Origin Numbers:\t\t" + numbers.ToPrint());
             numbers = Delete(numbers, numToDelete);
-            Console.WriteLine("After Deleting ({0}): \t" + numbers.ToPrint(), numToDelete);
+            if(numbers==null)
+                Console.WriteLine("After Deleting ({0}): \t Chain is empty.", numToDelete);
+            else
+                Console.WriteLine("After Deleting ({0}): \t" + numbers.ToPrint(), numToDelete);
         }
 
         public static Node<int> Delete(Node<int> lst, int num) 
         {
-            Node<int> newList = null;
-            Node<int> pos = lst;
-            while (pos != null)
+            Node<int> curr = lst;
+            Node<int> next; 
+            //one or sequence of num in start of chain
+            while(curr == lst && curr!=null && curr.GetValue() == num)
             {
-                if (pos.GetValue() != num)
-                {
-                    if (newList == null)
-                        newList = new Node<int>(pos.GetValue());
-                    else
-                    {
-                        Node<int> after = GetLast(newList);
-                        after.SetNext(new Node<int>(pos.GetValue()));
-
-                        //newList = new Node<int>(pos.GetValue(), newList);
-                    }
-                }
-                pos = pos.GetNext();
-            }
-            return newList;
-        }
-
-        public static Node<int> GetLast(Node<int> lst)
-
-        {
-            while (lst != null && lst.HasNext())
                 lst = lst.GetNext();
+                curr = lst;
+            }
+            next = curr;
+            //num in middle or end of chain
+            while(next != null)
+            {
+                if (next.GetValue() == num)
+                {
+                    curr.SetNext(next.GetNext());
+                    next = next.GetNext();
+                }
+                else
+                {
+                    curr = next;
+                    next = next.GetNext();
+                }
+            }
             return lst;
         }
 
@@ -53,7 +53,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
         {
             Random rnd = new Random();
             Node<int> newList = null;
-            for (int i = 0; i<num; i++)
+            for (int i = 0; i < num; i++)
             {
                 if (newList == null)
                     newList = new Node<int>(rnd.Next(1, 11));

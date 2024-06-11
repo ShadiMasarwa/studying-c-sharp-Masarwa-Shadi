@@ -22,7 +22,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
             this.value = value;
             this.next = next;
         }
-        
+
         public T GetValue()
         {
             return this.value;
@@ -35,7 +35,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
 
         public bool HasNext()
         {
-            return (this.next !=null);
+            return (this.next != null);
         }
 
         public void SetValue(T value)
@@ -57,6 +57,9 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
 
         public string ToPrint()
         {
+            if (this == null)
+                return "null";
+           
             if (this.HasNext())
                 return value + ", " + this.next.ToPrint();
             return value + ", null";

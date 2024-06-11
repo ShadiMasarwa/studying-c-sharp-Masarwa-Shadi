@@ -19,11 +19,11 @@ namespace studying_c_sharp_Masarwa_Shadi
             //TestCircle2.RunMe();
             //Q1.RunMe();
             //Q2A.RunMe();
-            //Q3.RunTask();
+            Q3.RunTask();
             //Q4.RunTask();
             //a1.RunMe();            
             //a2.RunMe();
-            LinkedListExample.RunTasks();
+            //LinkedListExample.RunTasks();
 
             
         }

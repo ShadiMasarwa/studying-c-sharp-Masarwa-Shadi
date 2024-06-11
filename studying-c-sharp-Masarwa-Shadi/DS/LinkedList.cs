@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_Masarwa_Shadi.DS
 {
-    internal class LinkedList<T>
+    public class LinkedList<T>
     {
         public Node<T> first { get; set; }
 
@@ -17,10 +17,9 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
             first = newNode;
         }
 
-        public Node<T> RemoveFirst()
+        public void RemoveFirst()
         {
             first = first.GetNext();
-            return first;
         }
 
         public void DisplayLst()

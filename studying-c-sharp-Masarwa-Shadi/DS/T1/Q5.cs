@@ -18,7 +18,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
             lst = new Node<Expr>(new Expr(100, '-', 20), lst);
             lst = new Node<Expr>(new Expr(-5, '*', 56), lst);
             lst = new Node<Expr>(new Expr(58, '/', 6), lst);
-            lst = new Node<Expr>(new Expr(17, '/', 0), lst);
+            lst = new Node<Expr>(new Expr(17, '/', 2), lst);
             lst = new Node<Expr>(new Expr(77, '+', 22), lst);
             lst = new Node<Expr>(new Expr(17, '/', 8), lst);
 
@@ -64,16 +64,10 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T1
                 case '*':
                     return num1 * num2;
                 case '/':
-                    if (num2 !=0)
-                        return num2 / num1;
-                    else
-                        Console.WriteLine("Can't devide by zero!");
-                    break;
+                    return num2 / num1;
                 default:
-                    Console.WriteLine("Operation not recognized");
-                    break;
+                    return 0;
             }
-            return 0;
         }
 
         public double GetNum1()
