@@ -60,6 +60,10 @@
     <Compile Include="DS\T1\Q3.cs" />
     <Compile Include="DS\T1\Q4.cs" />
     <Compile Include="DS\T1\Q5.cs" />
+    <Compile Include="DS\T2\Q1.cs" />
+    <Compile Include="DS\T2\Q2.cs" />
+    <Compile Include="DS\T2\Q3.cs" />
+    <Compile Include="DS\T2\Q4.cs" />
     <Compile Include="Inheritance\ElectricProducts.cs" />
     <Compile Include="Inheritance\RunMe.cs" />
     <Compile Include="Program.cs" />
