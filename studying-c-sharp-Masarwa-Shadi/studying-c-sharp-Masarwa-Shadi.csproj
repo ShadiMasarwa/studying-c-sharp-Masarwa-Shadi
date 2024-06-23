@@ -54,6 +54,7 @@
     <Compile Include="DS\ClassProj\a2.cs" />
     <Compile Include="DS\ClassProj\a3.cs" />
     <Compile Include="DS\ClassProj\LinkedListExample.cs" />
+    <Compile Include="DS\ClassProj\Wether.cs" />
     <Compile Include="DS\LinkedList.cs" />
     <Compile Include="DS\Node.cs" />
     <Compile Include="DS\T1\Q2A.cs" />
