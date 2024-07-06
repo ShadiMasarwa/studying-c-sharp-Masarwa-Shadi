@@ -14,6 +14,8 @@ using studying_c_sharp_Masarwa_Shadi.DS.T3;
 
 
 
+using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
+using studying_c_sharp_Masarwa_Shadi.Inheritance;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -36,7 +38,6 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q2.RunMe();
             //Q3.RunMe();
             //Q4.RunMe();
-            Q3.Run();
         }
     }
 }
