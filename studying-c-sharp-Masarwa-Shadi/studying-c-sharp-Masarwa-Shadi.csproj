@@ -70,6 +70,8 @@
     <Compile Include="DS\T3\Q3.cs" />
     <Compile Include="Inheritance\ElectricProducts.cs" />
     <Compile Include="Inheritance\RunMe.cs" />
+    <Compile Include="List-Enum-Overload\LEO.cs" />
+    <Compile Include="List-Enum-Overload\RunMe.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DS\T1\Q1.cs" />
