@@ -64,5 +64,19 @@ namespace studying_c_sharp_Masarwa_Shadi.DS
                 return value + ", " + this.next.ToPrint();
             return value + ", null";
         }
+
+        public string ToPrintCircleChain()
+        {
+            if (this == null)
+                return "null";
+            Node<T> pos = this;
+            string str = "";
+            do
+            {
+                str += pos.value + ", ";
+                pos = pos.next;
+            } while (pos != this);
+            return str + "Loop\n";
+        }
     }
 }

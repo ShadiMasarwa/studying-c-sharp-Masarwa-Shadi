@@ -8,6 +8,6 @@ namespace studying_c_sharp_Masarwa_Shadi.conflict
 {
     class stam
     {
-        public string st;
+        
     }
 }
