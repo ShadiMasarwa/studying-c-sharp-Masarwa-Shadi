@@ -50,6 +50,7 @@
     <Compile Include="demo\Level2.cs" />
     <Compile Include="demo\Level3_1.cs" />
     <Compile Include="demo\Level3_2.cs" />
+    <Compile Include="DS\BinNode.cs" />
     <Compile Include="DS\ClassProj\a1.cs" />
     <Compile Include="DS\ClassProj\a2.cs" />
     <Compile Include="DS\ClassProj\a3.cs" />
@@ -72,6 +73,10 @@
     <Compile Include="DS\T4\Q2.cs" />
     <Compile Include="DS\T4\Q3.cs" />
     <Compile Include="DS\T4\Q4.cs" />
+    <Compile Include="DS\T5\Q123.cs" />
+    <Compile Include="DS\T5\Q4.cs" />
+    <Compile Include="DS\T5\Q5.cs" />
+    <Compile Include="DS\T5\Q6.cs" />
     <Compile Include="Inheritance\ElectricProducts.cs" />
     <Compile Include="Inheritance\RunMe.cs" />
     <Compile Include="List-Enum-Overload\LEO.cs" />

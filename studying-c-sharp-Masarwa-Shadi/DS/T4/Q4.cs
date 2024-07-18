@@ -12,7 +12,6 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T4
         public static void RunMe()
         {
             Game board = new Game(10);
-            //Console.WriteLine(board.head.ToPrintCircleChain());
             Node<int> lastNum = board.GetLastNode();
             Node<int> pos = board.head;
             Console.ForegroundColor= ConsoleColor.White;
@@ -120,6 +119,5 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T4
             Console.Write("Loop\n");
         }
         }
-        
     }
 
