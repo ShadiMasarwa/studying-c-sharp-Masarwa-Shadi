@@ -11,15 +11,17 @@
 //using studying_c_sharp_Masarwa_Shadi.DS.T1;
 //using studying_c_sharp_Masarwa_Shadi.DS.T2;
 //using studying_c_sharp_Masarwa_Shadi.DS.T3;
-using studying_c_sharp_Masarwa_Shadi.List_Enum_Overload;
+//using studying_c_sharp_Masarwa_Shadi.List_Enum_Overload;
 //using studying_c_sharp_Masarwa_Shadi.DS.T4;
-using studying_c_sharp_Masarwa_Shadi.DS.T5;
+//using studying_c_sharp_Masarwa_Shadi.DS.T5;
 
 
 
 
-using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
-using studying_c_sharp_Masarwa_Shadi.Inheritance;
+
+//using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
+//using studying_c_sharp_Masarwa_Shadi.Inheritance;
+using studying_c_sharp_Masarwa_Shadi.Zoo;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -42,7 +44,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q2.RunMe();
             //Q3.RunMe();
             //Q4.RunMe();
-            Q6.RunMe();
+            //Q6.RunMe();
+            Zoo.Zoo.RunMe();
         }
     }
 }

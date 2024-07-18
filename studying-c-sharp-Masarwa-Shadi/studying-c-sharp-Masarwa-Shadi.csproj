@@ -84,6 +84,17 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DS\T1\Q1.cs" />
+    <Compile Include="Zoo\Animal.cs" />
+    <Compile Include="Zoo\Bird.cs" />
+    <Compile Include="Zoo\Cow.cs" />
+    <Compile Include="Zoo\Crocodile.cs" />
+    <Compile Include="Zoo\Hipo.cs" />
+    <Compile Include="Zoo\HolsteinFriesian.cs" />
+    <Compile Include="Zoo\Mammal.cs" />
+    <Compile Include="Zoo\Parrot.cs" />
+    <Compile Include="Zoo\Reptile.cs" />
+    <Compile Include="Zoo\Snake.cs" />
+    <Compile Include="Zoo\Zoo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

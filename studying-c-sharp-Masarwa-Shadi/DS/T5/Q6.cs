@@ -20,7 +20,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.T5
            
             BinNode<char> charLst = BuildBinCharList();
             Console.WriteLine(charLst.ToPrint());
-            Console.WriteLine(IsPalindrom(  charLst))
+            //Console.WriteLine(IsPalindrom(  charLst))
 
         }
 
