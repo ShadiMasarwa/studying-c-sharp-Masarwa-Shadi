@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_Masarwa_Shadi.Zoo
 {
-    public class Snake : Reptile
+    public class Snake : Reptile, IDance
     {
         private bool poisonous;
 

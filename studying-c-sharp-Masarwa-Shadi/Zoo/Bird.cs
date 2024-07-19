@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_Masarwa_Shadi.Zoo
 {
-    public class Bird : Animal
+    public class Bird : Animal, IAnimal,IDance, ISing
     {
         private int flyHeight;
         private double wingsLong;

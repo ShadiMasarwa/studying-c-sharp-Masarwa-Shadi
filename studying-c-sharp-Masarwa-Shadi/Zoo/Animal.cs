@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace studying_c_sharp_Masarwa_Shadi.Zoo
 {
-    public class Animal
+    public class Animal: IAnimal
     {
         private string name;
         private int age;
