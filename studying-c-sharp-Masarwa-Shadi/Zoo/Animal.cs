@@ -22,6 +22,9 @@ namespace studying_c_sharp_Masarwa_Shadi.Zoo
         }
 
         public string Name { get => name; set => name = value; }
+        public int Age { get => age; set => age = value; }
+        public bool ApexPredator { get => apexPredator; set => apexPredator = value; }
+        public int CaloriesForMeel { get => caloriesForMeel; set => caloriesForMeel = value; }
 
         public virtual int Eat()
         {

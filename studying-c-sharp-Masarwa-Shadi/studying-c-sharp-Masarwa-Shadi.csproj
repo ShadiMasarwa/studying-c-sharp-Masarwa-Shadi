@@ -91,6 +91,7 @@
     <Compile Include="Zoo\Hipo.cs" />
     <Compile Include="Zoo\HolsteinFriesian.cs" />
     <Compile Include="Zoo\Mammal.cs" />
+    <Compile Include="Zoo\Park.cs" />
     <Compile Include="Zoo\Parrot.cs" />
     <Compile Include="Zoo\Reptile.cs" />
     <Compile Include="Zoo\Snake.cs" />
