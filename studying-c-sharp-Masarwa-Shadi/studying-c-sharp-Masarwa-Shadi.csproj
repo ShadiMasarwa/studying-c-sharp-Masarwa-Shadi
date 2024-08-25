@@ -57,6 +57,13 @@
     <Compile Include="DS\ClassProj\Wether.cs" />
     <Compile Include="DS\LinkedList.cs" />
     <Compile Include="DS\Node.cs" />
+    <Compile Include="DS\S3\T1\Q1.cs" />
+    <Compile Include="DS\S3\T1\Q2.cs" />
+    <Compile Include="DS\S3\T1\Q3.cs" />
+    <Compile Include="DS\S3\T1\Q4.cs" />
+    <Compile Include="DS\S3\T1\Q5.cs" />
+    <Compile Include="DS\S3\T1\Q6.cs" />
+    <Compile Include="DS\Stack.cs" />
     <Compile Include="DS\T1\Q2A.cs" />
     <Compile Include="DS\T1\Q3.cs" />
     <Compile Include="DS\T1\Q4.cs" />
