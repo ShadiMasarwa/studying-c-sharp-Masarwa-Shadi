@@ -8,7 +8,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
 {
     public class Q1
     {
-        public int CountStack(Stack<int> stck)
+        public static int CountStack(Stack<int> stck)
         {
             Stack<int> backup = new Stack<int>();
             int num = 0;

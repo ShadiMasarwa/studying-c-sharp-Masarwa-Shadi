@@ -8,7 +8,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
 {
     public class Q5
     {
-        public int GreaterAvg(Stack<int> stck)
+        public static int GreaterAvg(Stack<int> stck)
         {
             Stack<int> backup = new Stack<int>();
             int sumAll = 0;

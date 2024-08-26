@@ -11,7 +11,7 @@
 //using studying_c_sharp_Masarwa_Shadi.DS.T1;
 //using studying_c_sharp_Masarwa_Shadi.DS.T2;
 using studying_c_sharp_Masarwa_Shadi.DS.T3;
-
+using studying_c_sharp_Masarwa_Shadi.DS.S3.T1;
 
 
 using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
@@ -38,6 +38,7 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q2.RunMe();
             //Q3.RunMe();
             //Q4.RunMe();
+            T1Main.RunMe();
         }
     }
 }

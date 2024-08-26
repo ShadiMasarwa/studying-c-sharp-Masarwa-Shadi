@@ -8,7 +8,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
 {
     public class Q3
     {
-        public int SumStack(Stack<int> stck)
+        public static int SumStack(Stack<int> stck)
         {
             int sum = 0;
             Stack<int> backup = new Stack<int>();
@@ -21,7 +21,6 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
             while (!backup.IsEmpty())
                 stck.Push(backup.Pop());
             return sum;
-
         }
     }
 }

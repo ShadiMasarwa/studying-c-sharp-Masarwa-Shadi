@@ -63,6 +63,10 @@
     <Compile Include="DS\S3\T1\Q4.cs" />
     <Compile Include="DS\S3\T1\Q5.cs" />
     <Compile Include="DS\S3\T1\Q6.cs" />
+    <Compile Include="DS\S3\T1\Q7.cs" />
+    <Compile Include="DS\S3\T1\Q8.cs" />
+    <Compile Include="DS\S3\T1\Q9.cs" />
+    <Compile Include="DS\S3\T1\T1Main.cs" />
     <Compile Include="DS\Stack.cs" />
     <Compile Include="DS\T1\Q2A.cs" />
     <Compile Include="DS\T1\Q3.cs" />

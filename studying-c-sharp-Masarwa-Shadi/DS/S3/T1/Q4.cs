@@ -8,7 +8,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
 {
     public class Q4
     {
-        public int MaxStack(Stack<int> stck)
+        public static int MaxStack(Stack<int> stck)
         {
             Stack<int> backup = new Stack<int>();
             int max = stck.Pop();
@@ -23,7 +23,6 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
             while (!backup.IsEmpty())
                 stck.Push(backup.Pop());
             return max;
-
         }
     }
 }

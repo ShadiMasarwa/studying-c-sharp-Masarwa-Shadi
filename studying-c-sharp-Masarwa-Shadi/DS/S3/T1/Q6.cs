@@ -8,19 +8,27 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.S3.T1
 {
     public class Q6
     {
-        public int FindPlace(Stack<char> stck, char ch)
+        public static int FindPlace(Stack<char> stck, char ch)
         {
             Stack<char> backup = new Stack<char>();
-            int distance = -1;
+            int distance = 0;
             while (!stck.IsEmpty())
             {
                 distance++;
-                char c = stck.Pop();
-                backup.Push(c);
+                char c = stck.Top();
                 if (c == ch)
-                    return distance;
+                    break;
+                else
+                {
+                    backup.Push(c);
+                    stck.Pop();
+                }
             }
-            return -1;
+            if(stck.IsEmpty())
+                distance=-1;
+            while(!backup.IsEmpty())
+                stck.Push(backup.Pop());
+            return distance;
         }
     }
 }
