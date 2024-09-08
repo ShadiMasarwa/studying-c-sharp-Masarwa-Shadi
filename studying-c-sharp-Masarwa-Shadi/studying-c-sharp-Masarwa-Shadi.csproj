@@ -81,6 +81,10 @@
     <Compile Include="DS\T3\Q1.cs" />
     <Compile Include="DS\T3\Q2.cs" />
     <Compile Include="DS\T3\Q3.cs" />
+    <Compile Include="DS\Train\Crone.cs" />
+    <Compile Include="DS\Train\Katar.cs" />
+    <Compile Include="DS\Train\Manager.cs" />
+    <Compile Include="DS\Train\Train.cs" />
     <Compile Include="Inheritance\ElectricProducts.cs" />
     <Compile Include="Inheritance\RunMe.cs" />
     <Compile Include="Program.cs" />

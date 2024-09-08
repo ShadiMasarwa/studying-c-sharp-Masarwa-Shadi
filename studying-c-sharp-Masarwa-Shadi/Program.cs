@@ -17,6 +17,7 @@ using studying_c_sharp_Masarwa_Shadi.Singleton;
 
 using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
 using studying_c_sharp_Masarwa_Shadi.Inheritance;
+using studying_c_sharp_Masarwa_Shadi.DS.Train;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -40,15 +41,15 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q3.RunMe();
             //Q4.RunMe();
             //T1Main.RunMe();
-            Fruit first = new Apple(100, "RED");
-            Fruit second = new Fruit(90);
-            Apple third = new Apple(100, "RED");
-            bool b = first.ValidWeight();
-            b = second.ValidWeight();
-            b = ((Apple)first).ValidWeight();
-            b = ((Apple)second).ValidWeight();
-            b = ((Apple)first).color.equals(third.color)
-
+            //Fruit first = new Apple(100, "RED");
+            //Fruit second = new Fruit(90);
+            //Apple third = new Apple(100, "RED");
+            //bool b = first.ValidWeight();
+            //b = second.ValidWeight();
+            //b = ((Apple)first).ValidWeight();
+            //b = ((Apple)second).ValidWeight();
+            //b = ((Apple)first).color.equals(third.color)
+            Manager.RunMe();
 
         }
     }
