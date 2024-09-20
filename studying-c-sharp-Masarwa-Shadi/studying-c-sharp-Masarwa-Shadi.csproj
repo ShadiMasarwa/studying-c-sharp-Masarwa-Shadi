@@ -97,6 +97,7 @@
     <Compile Include="DS\Train\Katar.cs" />
     <Compile Include="DS\Train\Manager.cs" />
     <Compile Include="DS\Train\Train.cs" />
+    <Compile Include="Exception\ExceptionDemo.cs" />
     <Compile Include="Inheritance\ElectricProducts.cs" />
     <Compile Include="Inheritance\RunMe.cs" />
     <Compile Include="Program.cs" />

@@ -10,14 +10,15 @@
 //using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
 //using studying_c_sharp_Masarwa_Shadi.DS.T1;
 //using studying_c_sharp_Masarwa_Shadi.DS.T2;
-using studying_c_sharp_Masarwa_Shadi.DS.T3;
-using studying_c_sharp_Masarwa_Shadi.DS.S3.T1;
-using studying_c_sharp_Masarwa_Shadi.Singleton;
+//using studying_c_sharp_Masarwa_Shadi.DS.T3;
+//using studying_c_sharp_Masarwa_Shadi.DS.S3.T1;
+//using studying_c_sharp_Masarwa_Shadi.Singleton;
 
 
-using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
-using studying_c_sharp_Masarwa_Shadi.Inheritance;
-using studying_c_sharp_Masarwa_Shadi.DS.Train;
+//using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
+//using studying_c_sharp_Masarwa_Shadi.Inheritance;
+//using studying_c_sharp_Masarwa_Shadi.DS.Train;
+using studying_c_sharp_Masarwa_Shadi.Exception;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -49,7 +50,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //b = ((Apple)first).ValidWeight();
             //b = ((Apple)second).ValidWeight();
             //b = ((Apple)first).color.equals(third.color)
-            Manager.RunMe();
+            //Manager.RunMe();
+            ExceptionDemo.RunMe();
 
         }
     }
