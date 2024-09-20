@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Builder\BisliBuilder.cs" />
+    <Compile Include="Builder\Demo.cs" />
+    <Compile Include="Builder\IProduct.cs" />
+    <Compile Include="Builder\Manufacturer.cs" />
+    <Compile Include="Builder\Package.cs" />
+    <Compile Include="Builder\Product.cs" />
     <Compile Include="Circle2\Circle2.cs" />
     <Compile Include="Circle\Circle.cs" />
     <Compile Include="conflict\stam.cs" />
