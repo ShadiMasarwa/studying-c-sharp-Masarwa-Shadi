@@ -81,6 +81,8 @@
     <Compile Include="DS\S3\T3\Q4.cs" />
     <Compile Include="DS\S3\T3\Q5.cs" />
     <Compile Include="DS\S3\T3\Q6.cs" />
+    <Compile Include="DS\S3\T4\Q1.cs" />
+    <Compile Include="DS\S3\T4\Q2.cs" />
     <Compile Include="DS\Stack.cs" />
     <Compile Include="DS\T1\Q2A.cs" />
     <Compile Include="DS\T1\Q3.cs" />
