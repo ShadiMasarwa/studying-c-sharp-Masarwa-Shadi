@@ -18,7 +18,8 @@
 //using studying_c_sharp_Masarwa_Shadi.DS.ClassProj;
 //using studying_c_sharp_Masarwa_Shadi.Inheritance;
 //using studying_c_sharp_Masarwa_Shadi.DS.Train;
-using studying_c_sharp_Masarwa_Shadi.Exception;
+//using studying_c_sharp_Masarwa_Shadi.Exception;
+using studying_c_sharp_Masarwa_Shadi.Test2023A;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -51,7 +52,7 @@ namespace studying_c_sharp_Masarwa_Shadi
             //b = ((Apple)second).ValidWeight();
             //b = ((Apple)first).color.equals(third.color)
             //Manager.RunMe();
-            ExceptionDemo.RunMe();
+            Q8.RunMe();
 
         }
     }

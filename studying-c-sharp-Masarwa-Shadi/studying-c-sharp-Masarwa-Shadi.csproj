@@ -108,6 +108,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DS\T1\Q1.cs" />
     <Compile Include="Singleton\Store.cs" />
+    <Compile Include="Test2023A\Q8.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
