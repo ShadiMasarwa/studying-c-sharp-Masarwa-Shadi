@@ -97,6 +97,11 @@
     <Compile Include="DS\T3\Q1.cs" />
     <Compile Include="DS\T3\Q2.cs" />
     <Compile Include="DS\T3\Q3.cs" />
+    <Compile Include="DS\Test2024\Q1.cs" />
+    <Compile Include="DS\Test2024\Q2.cs" />
+    <Compile Include="DS\Test2024\Q3.cs" />
+    <Compile Include="DS\Test2024\Q4.cs" />
+    <Compile Include="DS\Test2024\TestApp.cs" />
     <Compile Include="DS\Train\Crone.cs" />
     <Compile Include="DS\Train\Katar.cs" />
     <Compile Include="DS\Train\Manager.cs" />

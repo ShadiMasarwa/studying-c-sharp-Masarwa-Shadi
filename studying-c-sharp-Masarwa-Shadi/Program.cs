@@ -19,7 +19,8 @@
 //using studying_c_sharp_Masarwa_Shadi.Inheritance;
 //using studying_c_sharp_Masarwa_Shadi.DS.Train;
 //using studying_c_sharp_Masarwa_Shadi.Exception;
-using studying_c_sharp_Masarwa_Shadi.Test2023A;
+//using studying_c_sharp_Masarwa_Shadi.Test2023A;
+using studying_c_sharp_Masarwa_Shadi.DS.Test2024;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -52,8 +53,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //b = ((Apple)second).ValidWeight();
             //b = ((Apple)first).color.equals(third.color)
             //Manager.RunMe();
-            Q8.RunMe();
-
+            //Q8.RunMe();
+            TestApp.RunMe();
         }
     }
 }
