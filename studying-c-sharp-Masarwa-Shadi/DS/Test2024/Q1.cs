@@ -10,9 +10,7 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.Test2024
     {
         public static Queue<int> SumLongNumbers(Queue<int> num1, Queue<int> num2)
         {
-            num1 = Reverse(num1);
-            num2 = Reverse(num2);
-            Queue<int> Result = new Queue<int>();
+            Stack<int> Result = new Stack<int>();
             Queue<int> temp1 = new Queue<int>();
             Queue<int> temp2 = new Queue<int>();
             int ten = 0;
@@ -27,12 +25,12 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.Test2024
                     sum = num + ten;
                     if (sum <= 9)
                     {
-                        Result.Insert(sum);
+                        Result.Push(sum);
                         ten = 0;
                     }
                     else
                     {
-                        Result.Insert(sum - 10);
+                        Result.Push(sum - 10);
                         ten = 1;
                     }
                 }
@@ -43,12 +41,12 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.Test2024
                     int tempSum = n1 + n2 + ten;
                     if (tempSum <= 9)
                     {
-                        Result.Insert(tempSum);
+                        Result.Push(tempSum);
                         ten = 0;
                     }
                     else
                     {
-                        Result.Insert(tempSum - 10);
+                        Result.Push(tempSum - 10);
                         ten = 1;
                     }
                     temp1.Insert(n1);
@@ -64,30 +62,34 @@ namespace studying_c_sharp_Masarwa_Shadi.DS.Test2024
                     if((num + ten) <= 9)
                     {
                         ten = 0;
-                        Result.Insert(num);
+                        Result.Push(num);
                     }
                     else
                     {
                         ten = 1;
-                        Result.Insert(num - 10);
+                        Result.Push(num - 10);
                     }
                 }
             }
             if (ten == 1)
             {
                 Queue<int> temp = new Queue<int>();
-                temp.Insert(1);
                 while (!Result.IsEmpty())
-                    temp.Insert(Result.Remove());
+                    temp.Insert(Result.Pop());
+                temp.Insert(1);
                 while (!temp.IsEmpty())
-                    Result.Insert(temp.Remove());
+                    Result.Push(temp.Remove());
 
             }
             while (!temp1.IsEmpty())
                 num1.Insert(temp1.Remove());
             while (!temp2.IsEmpty())
                 num2.Insert(temp2.Remove());
-            return Result;
+            Queue<int> final = new Queue<int>();
+            while (!Result.IsEmpty())
+                final.Insert(Result.Pop());
+
+            return final;
         }
 
         private static Queue<int> Reverse(Queue<int> q)
