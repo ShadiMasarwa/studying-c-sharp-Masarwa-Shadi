@@ -21,6 +21,7 @@
 //using studying_c_sharp_Masarwa_Shadi.Exception;
 //using studying_c_sharp_Masarwa_Shadi.Test2023A;
 using studying_c_sharp_Masarwa_Shadi.DS.Test2024;
+using studying_c_sharp_Masarwa_Shadi.DS.Y3S1;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -54,7 +55,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //b = ((Apple)first).color.equals(third.color)
             //Manager.RunMe();
             //Q8.RunMe();
-            TestApp.RunMe();
+            //TestApp.RunMe();
+            RunMe.RunTests();
         }
     }
 }
