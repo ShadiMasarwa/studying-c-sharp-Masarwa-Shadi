@@ -106,6 +106,7 @@
     <Compile Include="DS\Train\Katar.cs" />
     <Compile Include="DS\Train\Manager.cs" />
     <Compile Include="DS\Train\Train.cs" />
+    <Compile Include="DS\Y3S1\Q0.cs" />
     <Compile Include="DS\Y3S1\Q1.cs" />
     <Compile Include="DS\Y3S1\Q2.cs" />
     <Compile Include="DS\Y3S1\QB2.cs" />
