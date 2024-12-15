@@ -60,6 +60,14 @@
     <Compile Include="DS\ClassProj\a1.cs" />
     <Compile Include="DS\ClassProj\a2.cs" />
     <Compile Include="DS\ClassProj\a3.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q1.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q2.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q3.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q4.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q5.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q6.cs" />
+    <Compile Include="DS\ClassProj\BinNode\Q7.cs" />
+    <Compile Include="DS\ClassProj\BinNode\RunTasks.cs" />
     <Compile Include="DS\ClassProj\LinkedListExample.cs" />
     <Compile Include="DS\ClassProj\Wether.cs" />
     <Compile Include="DS\LinkedList.cs" />
