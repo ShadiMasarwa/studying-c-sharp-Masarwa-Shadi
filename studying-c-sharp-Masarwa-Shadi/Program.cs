@@ -57,7 +57,7 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Manager.RunMe();
             //Q8.RunMe();
             //TestApp.RunMe();
-            RunMe.RunCode();
+            //RunMe.RunTests();
         }
     }
 }
