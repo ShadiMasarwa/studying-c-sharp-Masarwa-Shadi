@@ -165,6 +165,9 @@
     <Compile Include="Exception\ExceptionDemo.cs" />
     <Compile Include="Inheritance\ElectricProducts.cs" />
     <Compile Include="Inheritance\RunMe.cs" />
+    <Compile Include="Poker\Card.cs" />
+    <Compile Include="Poker\Hand.cs" />
+    <Compile Include="Poker\ManualTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DS\T1\Q1.cs" />
@@ -174,6 +177,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Poker\input.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

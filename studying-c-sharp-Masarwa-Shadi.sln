@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studying-c-sharp-Masarwa-Shadi", "studying-c-sharp-Masarwa-Shadi\studying-c-sharp-Masarwa-Shadi.csproj", "{54ADB264-DE6E-4EA9-88D0-74CD18324B92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokerTest", "PokerTest\PokerTest.csproj", "{8F0103F2-6736-4126-B5BD-7B5FD7B46104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{54ADB264-DE6E-4EA9-88D0-74CD18324B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54ADB264-DE6E-4EA9-88D0-74CD18324B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54ADB264-DE6E-4EA9-88D0-74CD18324B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F0103F2-6736-4126-B5BD-7B5FD7B46104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F0103F2-6736-4126-B5BD-7B5FD7B46104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F0103F2-6736-4126-B5BD-7B5FD7B46104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F0103F2-6736-4126-B5BD-7B5FD7B46104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

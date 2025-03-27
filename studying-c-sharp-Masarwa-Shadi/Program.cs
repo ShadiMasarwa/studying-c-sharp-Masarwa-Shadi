@@ -29,7 +29,8 @@ using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Recursive1;
 //using studying_c_sharp_Masarwa_Shadi.DS.S3.T5;
 //using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2024_A;
 //using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2024_B;
-using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2023_B;
+//using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2023_B;
+using studying_c_sharp_Masarwa_Shadi.Poker;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -69,7 +70,8 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Bagrout.RunMe();
             //RunMethods.RunMe();
             //Q10.RunTests();
-            Q9.RunMe();
+            //Q9.RunMe();
+            ManualTest.Runme();
         }
     }
 }
