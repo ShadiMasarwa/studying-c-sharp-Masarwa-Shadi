@@ -1,4 +1,6 @@
 ﻿using System;
+using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Recursive1;
+
 
 //OOP
 //using studying_c_sharp_Masarwa_Shadi.demo;
@@ -22,7 +24,12 @@
 //using studying_c_sharp_Masarwa_Shadi.Test2023A;
 //using studying_c_sharp_Masarwa_Shadi.DS.Test2024;
 //using studying_c_sharp_Masarwa_Shadi.DS.Y3S1;
-using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Trees1;
+//using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Trees1;
+//using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Exams;
+//using studying_c_sharp_Masarwa_Shadi.DS.S3.T5;
+//using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2024_A;
+//using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2024_B;
+using studying_c_sharp_Masarwa_Shadi.DS.Y3S1.Spring_2023_B;
 
 namespace studying_c_sharp_Masarwa_Shadi
 {
@@ -58,6 +65,11 @@ namespace studying_c_sharp_Masarwa_Shadi
             //Q8.RunMe();
             //TestApp.RunMe();
             //RunMe.RunTests();
+            //RunMe.RunThis();
+            //Bagrout.RunMe();
+            //RunMethods.RunMe();
+            //Q10.RunTests();
+            Q9.RunMe();
         }
     }
 }
